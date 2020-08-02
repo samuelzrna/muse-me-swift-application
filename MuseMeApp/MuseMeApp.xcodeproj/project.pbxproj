@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F31E406324D750EC00D27045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31E406224D750EC00D27045 /* AppDelegate.swift */; };
+		F31E406524D750EC00D27045 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31E406424D750EC00D27045 /* SceneDelegate.swift */; };
+		F31E406724D750EC00D27045 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31E406624D750EC00D27045 /* ContentView.swift */; };
+		F31E406924D750ED00D27045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31E406824D750ED00D27045 /* Assets.xcassets */; };
+		F31E406C24D750ED00D27045 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31E406B24D750ED00D27045 /* Preview Assets.xcassets */; };
+		F31E406F24D750ED00D27045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F31E406D24D750ED00D27045 /* LaunchScreen.storyboard */; };
+		F31E407A24D750ED00D27045 /* MuseMeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31E407924D750ED00D27045 /* MuseMeAppTests.swift */; };
+		F31E408524D750ED00D27045 /* MuseMeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31E408424D750ED00D27045 /* MuseMeAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F31E407624D750ED00D27045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F31E405724D750EC00D27045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F31E405E24D750EC00D27045;
+			remoteInfo = MuseMeApp;
+		};
+		F31E408124D750ED00D27045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F31E405724D750EC00D27045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F31E405E24D750EC00D27045;
+			remoteInfo = MuseMeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F31E405F24D750EC00D27045 /* MuseMeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuseMeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31E406224D750EC00D27045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F31E406424D750EC00D27045 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F31E406624D750EC00D27045 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F31E406824D750ED00D27045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F31E406B24D750ED00D27045 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F31E406E24D750ED00D27045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F31E407024D750ED00D27045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31E407524D750ED00D27045 /* MuseMeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseMeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31E407924D750ED00D27045 /* MuseMeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseMeAppTests.swift; sourceTree = "<group>"; };
+		F31E407B24D750ED00D27045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31E408024D750ED00D27045 /* MuseMeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseMeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31E408424D750ED00D27045 /* MuseMeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseMeAppUITests.swift; sourceTree = "<group>"; };
+		F31E408624D750ED00D27045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F31E405C24D750EC00D27045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31E407224D750ED00D27045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31E407D24D750ED00D27045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F31E405624D750EC00D27045 = {
+			isa = PBXGroup;
+			children = (
+				F31E406124D750EC00D27045 /* MuseMeApp */,
+				F31E407824D750ED00D27045 /* MuseMeAppTests */,
+				F31E408324D750ED00D27045 /* MuseMeAppUITests */,
+				F31E406024D750EC00D27045 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F31E406024D750EC00D27045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F31E405F24D750EC00D27045 /* MuseMeApp.app */,
+				F31E407524D750ED00D27045 /* MuseMeAppTests.xctest */,
+				F31E408024D750ED00D27045 /* MuseMeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F31E406124D750EC00D27045 /* MuseMeApp */ = {
+			isa = PBXGroup;
+			children = (
+				F31E406224D750EC00D27045 /* AppDelegate.swift */,
+				F31E406424D750EC00D27045 /* SceneDelegate.swift */,
+				F31E406624D750EC00D27045 /* ContentView.swift */,
+				F31E406824D750ED00D27045 /* Assets.xcassets */,
+				F31E406D24D750ED00D27045 /* LaunchScreen.storyboard */,
+				F31E407024D750ED00D27045 /* Info.plist */,
+				F31E406A24D750ED00D27045 /* Preview Content */,
+			);
+			path = MuseMeApp;
+			sourceTree = "<group>";
+		};
+		F31E406A24D750ED00D27045 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F31E406B24D750ED00D27045 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F31E407824D750ED00D27045 /* MuseMeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F31E407924D750ED00D27045 /* MuseMeAppTests.swift */,
+				F31E407B24D750ED00D27045 /* Info.plist */,
+			);
+			path = MuseMeAppTests;
+			sourceTree = "<group>";
+		};
+		F31E408324D750ED00D27045 /* MuseMeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F31E408424D750ED00D27045 /* MuseMeAppUITests.swift */,
+				F31E408624D750ED00D27045 /* Info.plist */,
+			);
+			path = MuseMeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F31E405E24D750EC00D27045 /* MuseMeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31E408924D750ED00D27045 /* Build configuration list for PBXNativeTarget "MuseMeApp" */;
+			buildPhases = (
+				F31E405B24D750EC00D27045 /* Sources */,
+				F31E405C24D750EC00D27045 /* Frameworks */,
+				F31E405D24D750EC00D27045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuseMeApp;
+			productName = MuseMeApp;
+			productReference = F31E405F24D750EC00D27045 /* MuseMeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F31E407424D750ED00D27045 /* MuseMeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31E408C24D750ED00D27045 /* Build configuration list for PBXNativeTarget "MuseMeAppTests" */;
+			buildPhases = (
+				F31E407124D750ED00D27045 /* Sources */,
+				F31E407224D750ED00D27045 /* Frameworks */,
+				F31E407324D750ED00D27045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F31E407724D750ED00D27045 /* PBXTargetDependency */,
+			);
+			name = MuseMeAppTests;
+			productName = MuseMeAppTests;
+			productReference = F31E407524D750ED00D27045 /* MuseMeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F31E407F24D750ED00D27045 /* MuseMeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31E408F24D750ED00D27045 /* Build configuration list for PBXNativeTarget "MuseMeAppUITests" */;
+			buildPhases = (
+				F31E407C24D750ED00D27045 /* Sources */,
+				F31E407D24D750ED00D27045 /* Frameworks */,
+				F31E407E24D750ED00D27045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F31E408224D750ED00D27045 /* PBXTargetDependency */,
+			);
+			name = MuseMeAppUITests;
+			productName = MuseMeAppUITests;
+			productReference = F31E408024D750ED00D27045 /* MuseMeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F31E405724D750EC00D27045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Samuel Zrna";
+				TargetAttributes = {
+					F31E405E24D750EC00D27045 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					F31E407424D750ED00D27045 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F31E405E24D750EC00D27045;
+					};
+					F31E407F24D750ED00D27045 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F31E405E24D750EC00D27045;
+					};
+				};
+			};
+			buildConfigurationList = F31E405A24D750EC00D27045 /* Build configuration list for PBXProject "MuseMeApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F31E405624D750EC00D27045;
+			productRefGroup = F31E406024D750EC00D27045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F31E405E24D750EC00D27045 /* MuseMeApp */,
+				F31E407424D750ED00D27045 /* MuseMeAppTests */,
+				F31E407F24D750ED00D27045 /* MuseMeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F31E405D24D750EC00D27045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31E406F24D750ED00D27045 /* LaunchScreen.storyboard in Resources */,
+				F31E406C24D750ED00D27045 /* Preview Assets.xcassets in Resources */,
+				F31E406924D750ED00D27045 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31E407324D750ED00D27045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31E407E24D750ED00D27045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F31E405B24D750EC00D27045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31E406324D750EC00D27045 /* AppDelegate.swift in Sources */,
+				F31E406524D750EC00D27045 /* SceneDelegate.swift in Sources */,
+				F31E406724D750EC00D27045 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31E407124D750ED00D27045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31E407A24D750ED00D27045 /* MuseMeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31E407C24D750ED00D27045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31E408524D750ED00D27045 /* MuseMeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F31E407724D750ED00D27045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F31E405E24D750EC00D27045 /* MuseMeApp */;
+			targetProxy = F31E407624D750ED00D27045 /* PBXContainerItemProxy */;
+		};
+		F31E408224D750ED00D27045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F31E405E24D750EC00D27045 /* MuseMeApp */;
+			targetProxy = F31E408124D750ED00D27045 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F31E406D24D750ED00D27045 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F31E406E24D750ED00D27045 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F31E408724D750ED00D27045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F31E408824D750ED00D27045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F31E408A24D750ED00D27045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MuseMeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8643Q3S785;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MuseMeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eseasy.MuseMeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F31E408B24D750ED00D27045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MuseMeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8643Q3S785;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MuseMeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eseasy.MuseMeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F31E408D24D750ED00D27045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8643Q3S785;
+				INFOPLIST_FILE = MuseMeAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eseasy.MuseMeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuseMeApp.app/MuseMeApp";
+			};
+			name = Debug;
+		};
+		F31E408E24D750ED00D27045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8643Q3S785;
+				INFOPLIST_FILE = MuseMeAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eseasy.MuseMeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuseMeApp.app/MuseMeApp";
+			};
+			name = Release;
+		};
+		F31E409024D750ED00D27045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8643Q3S785;
+				INFOPLIST_FILE = MuseMeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eseasy.MuseMeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuseMeApp;
+			};
+			name = Debug;
+		};
+		F31E409124D750ED00D27045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8643Q3S785;
+				INFOPLIST_FILE = MuseMeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eseasy.MuseMeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuseMeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F31E405A24D750EC00D27045 /* Build configuration list for PBXProject "MuseMeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31E408724D750ED00D27045 /* Debug */,
+				F31E408824D750ED00D27045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31E408924D750ED00D27045 /* Build configuration list for PBXNativeTarget "MuseMeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31E408A24D750ED00D27045 /* Debug */,
+				F31E408B24D750ED00D27045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31E408C24D750ED00D27045 /* Build configuration list for PBXNativeTarget "MuseMeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31E408D24D750ED00D27045 /* Debug */,
+				F31E408E24D750ED00D27045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31E408F24D750ED00D27045 /* Build configuration list for PBXNativeTarget "MuseMeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31E409024D750ED00D27045 /* Debug */,
+				F31E409124D750ED00D27045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F31E405724D750EC00D27045 /* Project object */;
+}
